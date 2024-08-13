@@ -1,9 +1,9 @@
-import Home from "./Home"
+import Header from "./Header"
 
 const About = () => {
   return (
     <>
-      <Home />           
+      <Header />           
       <div>This is the About Page</div>
     </>
   )

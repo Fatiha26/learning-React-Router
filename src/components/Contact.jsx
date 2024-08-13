@@ -1,9 +1,9 @@
-import Home from "./Home"
+import Header from "./Header"
 
 const Contact = () => {
   return (
     <>
-        <Home/>
+        <Header />
         <div>This is the Contact Page</div>
     </>
   )
