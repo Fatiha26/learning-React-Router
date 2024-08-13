@@ -1,7 +1,11 @@
+import Home from "./Home"
 
 const Contact = () => {
   return (
-    <div>This is the Contact Page</div>
+    <>
+        <Home/>
+        <div>This is the Contact Page</div>
+    </>
   )
 }
 
