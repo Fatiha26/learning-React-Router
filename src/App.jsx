@@ -10,20 +10,20 @@ const App = () => {
   return (
     <>
         <BrowserRouter>
-          <Routes>
+          {/* <Routes>
             <Route path="/" element={<Home /> } />
             <Route path="/about" element={<About />}/>
             <Route path="/contact" element={<Contact />}/>
             <Route path="*" element={<Error />}/>
-          </Routes>          
+          </Routes>           */}
 
-          {/* <Routes>
+          <Routes>
             <Route path="/" element={<Home /> }>
             <Route path="/about" element={<About />}/>
             <Route path="/contact" element={<Contact />}/>
             <Route path="*" element={<Error />}/>
             </Route>
-          </Routes>  NESTED ROUTING */}
+          </Routes>
         </BrowserRouter>
     </>
   )
